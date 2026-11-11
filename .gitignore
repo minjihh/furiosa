@@ -1,0 +1,18 @@
+# 1) 일단 홈 폴더의 모든 것을 제외
+/*
+
+# 2) 이것만 허용
+!/.gitignore
+!/furiosa-study/
+!/furiosa2/
+
+# 3) 허용한 폴더 안에서도 제외할 것
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+*.fxb
+*.bin
+*.safetensors
+*.pt
+*.ckpt
